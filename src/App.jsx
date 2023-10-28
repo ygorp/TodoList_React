@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Todo from './components/todo'
-import TodoForm from './components/todoForm'
+import TodoForm from './components/TodoForm'
 import Search from './components/Search';
 import './App.css'
 import Filter from './components/Filter';
