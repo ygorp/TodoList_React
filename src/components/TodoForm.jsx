@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const todoForm = ({ addTodo }) => {
+const TodoForm = ({ addTodo }) => {
     const [value, setValue] = useState("");
     const [category, setCategory] = useState("");
 
@@ -34,4 +34,4 @@ const todoForm = ({ addTodo }) => {
   )
 }
 
-export default todoForm;
+export default TodoForm;
